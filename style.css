@@ -1,0 +1,80 @@
+
+body,html{
+  margin: 0px;
+  padding: 0px;
+  font-family: "Lucida Console", Monaco, monospace;
+  color: white;
+  background-color: #BBBE64;
+}
+
+.directory ,.headers, .contentContainers{
+  padding: 2vmin;
+  margin: 2vmin;
+  display: flex;
+}
+
+.directory{
+
+  background-color: #443850;
+
+  border-radius: 15px;
+  font-size: 4vmin;
+  justify-content: space-around;
+
+
+}
+.headers{
+
+  font-size: 3vmin;
+  justify-content: center;
+
+}
+p+p {
+  padding-top: 3vmin;
+
+}
+
+.subContainers{
+
+  margin: 1vmin;
+  padding-left: 10vmin;
+  padding-right: 10vmin;
+
+}
+
+.contentContainers{
+  background-color: #EAF0CE;
+  color: black;
+  font-size: 3vmin;
+  border-radius: 15px;
+  justify-content: center;
+  flex-direction: column;
+}
+.pictureCollection > img{
+
+  padding: 1.5vmin;
+
+  border-radius: 40%;
+
+}
+.pictureCollection{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+
+
+
+a:hover {
+  background-color: grey;
+  text-decoration: inherit;
+  color: yellow;
+}
+
+h2 {
+  display: flex;
+  border-style: dotted;
+  margin: 0.5vmin;
+  justify-content: center;
+}
